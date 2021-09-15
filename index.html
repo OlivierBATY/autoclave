@@ -1,23 +1,24 @@
-﻿<html>
+<!doctype html>
+<html>
 <head>
+<meta charset="UTF-8">
+<title>La notion de force</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <style>
-*{border:0;margin:0;padding:0}
-object{width:100vw;height:100vh}
+*{border:0;margin:0;padding:0;box-sizing:border-box}
+html{width:100%;height:100%;background:#fff;font:calc(1vw + 1vh) sans-serif}
+body{width:100vw;min-height:100%;display:flex;justify-content:center;align-items:center}
+object,rust-object{flex:1;max-width:100vw;max-height:100vh}
 </style>
+<script src="ruffle.js"></script>
 </head>
 <body>
-<!-- comment -->
-<object type="application/x-shockwave-flash" data="autoclave.swf">
-
-<param name="movie" value="autoclave.swf" />
-<param name="wmode" value="transparent" /> <!-- Or opaque, etc. -->
-
-<!-- ↓ Required paramter or not, depends on application -->
-<param name="FlashVars" value="" />
-
-<param name="quality" value="high" />
-<param name="menu" value="false" />
-<p>Pour visualiser cette animation, pensez à activer le flash dans votre navigateur!</p>
+<object type="application/x-shockwave-flash" data="autoclave.swf" width="100%" height="100%">
+  <param name="movie" value="autoclave.swf"/>
+  <param name="wmode" value="transparent"/>
+  <param name="FlashVars" value=""/>
+  <param name="quality" value="high"/>
+  <param name="menu" value="false"/>
 </object>
 </body>
 </html>
